@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-06-08T07:54:52.192559+00:00",
+  "index": {
+    "index_name": "kb_documents",
+    "embedding_dims": 384,
+    "es_delete_mode": "hard_delete",
+    "bulk_chunk_size": 200,
+    "bulk_refresh": false
+  },
+  "files": {
+    "embeddings": "embedding_vectors.jsonl",
+    "deleted_doc_ids": "deleted_doc_ids.jsonl",
+    "settings": "es_effective_config.json",
+    "indexer_script": "offline_index_to_es.py",
+    "readme": "README_OFFLINE.md",
+    "source_embeddings_path": "/app/output_clean_1/langgraph_embedding_vectors.jsonl",
+    "source_payload_path": "/app/output_clean_1/langgraph_embedding_payloads.jsonl",
+    "source_payload_delta_path": "/app/output_clean_1/embedding_payloads_delta.jsonl"
+  },
+  "runtime": {
+    "recreate_index_requested": true,
+    "settings_overrides": {
+      "elasticsearch_url": "http://elasticsearch:9200",
+      "elasticsearch_username": null,
+      "elasticsearch_password": null,
+      "db_url": "sqlite:////app/output_clean_1/genie.db"
+    },
+    "record_count_hint": 446,
+    "deleted_doc_id_count": 0
+  }
+}

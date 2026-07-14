@@ -1,0 +1,58 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.2.1
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms1g -Xmx1g
+    ports:
+      - "9200:9200"
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    restart: unless-stopped
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:9.2.1
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      elasticsearch:
+        condition: service_started
+    restart: unless-stopped
+
+  scheduler-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: langgraph-scheduler-api:latest
+    environment:
+      SCHEDULER_API_KEY: ${SCHEDULER_API_KEY:-}
+      DEFAULT_ES_URL: http://elasticsearch:9200
+      DEFAULT_CONFIG_PATH: /app/es_search_config.json
+      DEFAULT_CRAWL_OUTPUT_DIR: /app/output_clean_1
+      PYTHONPATH: /app
+      # Local/dev default: use sample enrichment output instead of calling a live LLM.
+      # Override by setting LLM_SAMPLE_PATH="" (empty) and providing LLM_API_URL/LLM_MODEL.
+      LLM_SAMPLE_PATH: ${LLM_SAMPLE_PATH:-/app/enrich/ai_metadata.json}
+      LLM_API_URL: ${LLM_API_URL:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-}
+      LLM_TEMPERATURE: ${LLM_TEMPERATURE:-}
+      LLM_BEARER_TOKEN: ${LLM_BEARER_TOKEN:-}
+      LLM_AUTH_HEADER: ${LLM_AUTH_HEADER:-}
+      LLM_AUTH_VALUE: ${LLM_AUTH_VALUE:-}
+    volumes:
+      - ./output_clean_1:/app/output_clean_1
+      - ./es_search_config.json:/app/es_search_config.json:ro
+      - ./enrich:/app/enrich:ro
+    ports:
+      - "8000:8000"
+    depends_on:
+      elasticsearch:
+        condition: service_started
+    restart: unless-stopped
+
+volumes:
+  es-data:

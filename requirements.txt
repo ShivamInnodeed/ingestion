@@ -1,0 +1,13 @@
+pydantic>=2.6
+pydantic-settings>=2.2
+crawl4ai
+beautifulsoup4>=4.12
+requests>=2.31
+lxml>=5.2
+sentence-transformers>=2.6
+langgraph
+elasticsearch>=9.2,<10
+SQLAlchemy>=2.0
+fastapi>=0.111
+uvicorn[standard]>=0.30
+APScheduler>=3.10

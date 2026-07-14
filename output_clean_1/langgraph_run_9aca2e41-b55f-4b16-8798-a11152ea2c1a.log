@@ -1,0 +1,2072 @@
+/usr/local/lib/python3.11/site-packages/langgraph/cache/base/__init__.py:8: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+INFO Starting crawl into /app/output_clean_1
+Large crawl detected: disabling network request capture for stability (max_depth=4, max_pages=800).
+Large crawl detected: applying adaptive crawl settings: {'semaphore_count': 2, 'mean_delay': 0.2, 'max_range': 0.3, 'page_timeout': 60000}
+[INIT].... → Crawl4AI 0.8.6 
+[FETCH]... ↓ https://www.tatacard.com                                           
+| ✓ | ⏱: 7.01s 
+[SCRAPE].. ◆ https://www.tatacard.com                                           
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.tatacard.com                                           
+| ✓ | ⏱: 7.33s 
+[FETCH]... ↓ https://www.tatacard.com/                                          
+| ✓ | ⏱: 7.52s 
+[SCRAPE].. ◆ https://www.tatacard.com/                                          
+| ✓ | ⏱: 0.32s 
+[COMPLETE] ● https://www.tatacard.com/                                          
+| ✓ | ⏱: 7.88s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/personal/rewards/participa
+ting-outlets.pdf     | ✓ | ⏱: 7.48s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/personal/rewards/participa
+ting-outlets.pdf     | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/personal/rewards/participa
+ting-outlets.pdf     | ✗ | ⏱: 7.51s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/credit-bureau-faqs.page           
+| ✓ | ⏱: 10.43s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/credit-bureau-faqs.page           
+| ✓ | ⏱: 0.48s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/credit-bureau-faqs.page           
+| ✓ | ⏱: 11.00s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/disclaimer.page                   
+| ✓ | ⏱: 11.72s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/disclaimer.page                   
+| ✓ | ⏱: 0.27s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/disclaimer.page                   
+| ✓ | ⏱: 12.04s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/contact-us/personal.page          
+| ✓ | ⏱: 12.77s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/contact-us/personal.page          
+| ✓ | ⏱: 0.63s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/contact-us/personal.page          
+| ✓ | ⏱: 13.49s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/do-not-disturb.page               
+| ✓ | ⏱: 14.46s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/do-not-disturb.page               
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/do-not-disturb.page               
+| ✓ | ⏱: 14.83s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/forms-central.page                
+| ✓ | ⏱: 14.98s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/forms-central.page                
+| ✓ | ⏱: 0.30s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/forms-central.page                
+| ✓ | ⏱: 15.33s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/faqs.page                         
+| ✓ | ⏱: 25.03s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/faqs.page                         
+| ✓ | ⏱: 2.02s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/faqs.page                         
+| ✓ | ⏱: 27.24s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...l/tokenisation-faq/credit-car
+d-tokenisation.html  | ✓ | ⏱: 30.13s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...l/tokenisation-faq/credit-car
+d-tokenisation.html  | ✓ | ⏱: 0.21s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...l/tokenisation-faq/credit-car
+d-tokenisation.html  | ✓ | ⏱: 30.53s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/help.page                         
+| ✓ | ⏱: 31.28s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/help.page                         
+| ✓ | ⏱: 0.86s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/help.page                         
+| ✓ | ⏱: 32.25s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/benefits.page            
+| ✓ | ⏱: 21.57s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/benefits.page            
+| ✓ | ⏱: 0.85s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/benefits.page            
+| ✓ | ⏱: 22.49s 
+[FETCH]... ↓ https://www.tatacard.com/en/contact-us/personal.page               
+| ✓ | ⏱: 33.60s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/contact-us/personal.page               
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.tatacard.com/en/contact-us/personal.page               
+| ✓ | ⏱: 34.14s 
+[FETCH]... ↓ https://www.tatacard.com/en/eapply.page                            
+| ✓ | ⏱: 34.13s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/eapply.page                            
+| ✓ | ⏱: 0.36s 
+[COMPLETE] ● https://www.tatacard.com/en/eapply.page                            
+| ✓ | ⏱: 34.70s 
+[FETCH]... ↓ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 34.70s 
+[SCRAPE].. ◆ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 0.28s 
+[COMPLETE] ● https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 35.17s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/simply-s
+ms.page              | ✓ | ⏱: 23.45s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/simply-s
+ms.page              | ✓ | ⏱: 0.34s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/simply-s
+ms.page              | ✓ | ⏱: 23.87s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/home.page                         
+| ✓ | ⏱: 28.42s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/home.page                         
+| ✓ | ⏱: 0.69s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/home.page                         
+| ✓ | ⏱: 29.17s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/most-important-terms-and-conditions.page       
+| ✓ | ⏱: 28.83s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/most-important-terms-and-conditions.page       
+| ✓ | ⏱: 0.81s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/most-important-terms-and-conditions.page       
+| ✓ | ⏱: 29.69s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/benefits/encash.page     
+| ✓ | ⏱: 24.28s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/benefits/encash.page     
+| ✓ | ⏱: 0.28s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/benefits/encash.page     
+| ✓ | ⏱: 24.64s 
+[FETCH]... ↓ https://www.tatacard.com/creditcards/app/user/register-page        
+| ✓ | ⏱: 38.19s 
+[SCRAPE].. ◆ https://www.tatacard.com/creditcards/app/user/register-page        
+| ✓ | ⏱: 0.04s 
+[COMPLETE] ● https://www.tatacard.com/creditcards/app/user/register-page        
+| ✓ | ⏱: 38.34s 
+[FETCH]... ↓ https://www.tatacard.com/creditcards/app/user/login                
+| ✓ | ⏱: 38.35s 
+[SCRAPE].. ◆ https://www.tatacard.com/creditcards/app/user/login                
+| ✓ | ⏱: 0.03s 
+[COMPLETE] ● https://www.tatacard.com/creditcards/app/user/login                
+| ✓ | ⏱: 38.49s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...wer-interest-option/balance-t
+ransfer-on-emi.page  | ✓ | ⏱: 24.81s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...wer-interest-option/balance-t
+ransfer-on-emi.page  | ✓ | ⏱: 0.69s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...wer-interest-option/balance-t
+ransfer-on-emi.page  | ✓ | ⏱: 25.60s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/balance
+-transfer.page       | ✓ | ⏱: 25.10s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/balance
+-transfer.page       | ✓ | ⏱: 0.47s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/balance
+-transfer.page       | ✓ | ⏱: 25.67s 
+[FETCH]... ↓ https://www.tatacard.com/creditcards/app/user/paynet               
+| ✓ | ⏱: 41.01s 
+[SCRAPE].. ◆ https://www.tatacard.com/creditcards/app/user/paynet               
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://www.tatacard.com/creditcards/app/user/paynet               
+| ✓ | ⏱: 41.51s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/flexi-p
+ay.page              | ✓ | ⏱: 15.94s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/flexi-p
+ay.page              | ✓ | ⏱: 0.37s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/flexi-p
+ay.page              | ✓ | ⏱: 16.37s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/top-up-
+and-recharge.page    | ✓ | ⏱: 13.41s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/top-up-
+and-recharge.page    | ✓ | ⏱: 0.47s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/top-up-
+and-recharge.page    | ✓ | ⏱: 13.98s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/credit-cards.page        
+| ✓ | ⏱: 15.45s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/credit-cards.page        
+| ✓ | ⏱: 0.55s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/credit-cards.page        
+| ✓ | ⏱: 16.26s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...redit-cards/classic-cards/tat
+a-titanium-card.dcr  | ✓ | ⏱: 53.67s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...redit-cards/classic-cards/tat
+a-titanium-card.dcr  | ✓ | ⏱: 0.23s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...redit-cards/classic-cards/tat
+a-titanium-card.dcr  | ✓ | ⏱: 54.03s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...-cards/premium-cards/tata-sta
+r-platinum-card.dcr  | ✓ | ⏱: 54.15s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...-cards/premium-cards/tata-sta
+r-platinum-card.dcr  | ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...-cards/premium-cards/tata-sta
+r-platinum-card.dcr  | ✓ | ⏱: 54.47s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...redit-cards/premium-cards/tat
+a-platinum-card.dcr  | ✓ | ⏱: 54.66s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...redit-cards/premium-cards/tat
+a-platinum-card.dcr  | ✓ | ⏱: 0.20s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...redit-cards/premium-cards/tat
+a-platinum-card.dcr  | ✓ | ⏱: 54.98s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...-cards/classic-cards/tata-sta
+r-titanium-card.dcr  | ✓ | ⏱: 55.10s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...-cards/classic-cards/tata-sta
+r-titanium-card.dcr  | ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...-cards/classic-cards/tata-sta
+r-titanium-card.dcr  | ✓ | ⏱: 55.42s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/pay.page                 
+| ✓ | ⏱: 17.33s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/pay.page                 
+| ✓ | ⏱: 0.98s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/pay.page                 
+| ✓ | ⏱: 18.35s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/offers.page              
+| ✓ | ⏱: 19.92s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/offers.page              
+| ✓ | ⏱: 2.35s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/offers.page              
+| ✓ | ⏱: 22.32s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-platin
+um-card.page         | ✓ | ⏱: 23.99s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-platin
+um-card.page         | ✓ | ⏱: 0.23s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-platin
+um-card.page         | ✓ | ⏱: 24.28s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/security.page                     
+| ✓ | ⏱: 21.64s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/security.page                     
+| ✓ | ⏱: 0.34s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/security.page                     
+| ✓ | ⏱: 22.02s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/sitemap.page                      
+| ✓ | ⏱: 21.94s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/sitemap.page                      
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/sitemap.page                      
+| ✓ | ⏱: 22.17s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-star-p
+latinum-card.page    | ✓ | ⏱: 25.02s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-star-p
+latinum-card.page    | ✓ | ⏱: 0.32s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-star-p
+latinum-card.page    | ✓ | ⏱: 25.38s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/who-we-are.page                   
+| ✓ | ⏱: 20.93s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/who-we-are.page                   
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/who-we-are.page                   
+| ✓ | ⏱: 21.04s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/rewards_new.page         
+| ✓ | ⏱: 22.82s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/rewards_new.page         
+| ✓ | ⏱: 0.52s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/rewards_new.page         
+| ✓ | ⏱: 23.40s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/rewards.page             
+| ✓ | ⏱: 23.88s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/rewards.page             
+| ✓ | ⏱: 0.41s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/rewards.page             
+| ✓ | ⏱: 24.33s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-star-t
+itanium-card.page    | ✓ | ⏱: 27.19s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-star-t
+itanium-card.page    | ✓ | ⏱: 0.52s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-star-t
+itanium-card.page    | ✓ | ⏱: 27.76s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-titani
+um-card.page         | ✓ | ⏱: 27.12s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-titani
+um-card.page         | ✓ | ⏱: 0.43s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-titani
+um-card.page         | ✓ | ⏱: 27.59s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/who-we-are/about-us.page          
+| ✓ | ⏱: 22.56s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/who-we-are/about-us.page          
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/who-we-are/about-us.page          
+| ✓ | ⏱: 22.72s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/To-contact-nearest-banking
+-ombudsman.pdf       | ✓ | ⏱: 6.41s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/To-contact-nearest-banking
+-ombudsman.pdf       | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/To-contact-nearest-banking
+-ombudsman.pdf       | ✗ | ⏱: 6.49s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...Requestor-Terms-and-condition
+s-Legal-Revised.pdf  | ✓ | ⏱: 6.53s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...Requestor-Terms-and-condition
+s-Legal-Revised.pdf  | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...Requestor-Terms-and-condition
+s-Legal-Revised.pdf  | ✗ | ⏱: 6.57s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...personal/Tata-Cards-IVR-Flow-
+updated-21apr16.pdf  | ✓ | ⏱: 6.25s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...personal/Tata-Cards-IVR-Flow-
+updated-21apr16.pdf  | ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...personal/Tata-Cards-IVR-Flow-
+updated-21apr16.pdf  | ✗ | ⏱: 6.31s 
+[FETCH]... ↓ http://www.tatacard.com/                                           
+| ✓ | ⏱: 8.60s 
+[SCRAPE].. ◆ http://www.tatacard.com/                                           
+| ✓ | ⏱: 0.67s 
+[COMPLETE] ● http://www.tatacard.com/                                           
+| ✓ | ⏱: 9.37s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/faqs/pay/nach-mandate-form
+.pdf                 | ✓ | ⏱: 4.69s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/faqs/pay/nach-mandate-form
+.pdf                 | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/faqs/pay/nach-mandate-form
+.pdf                 | ✗ | ⏱: 4.74s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/Credit_Limit
+_Increase_Form.pdf   | ✓ | ⏱: 4.49s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/Credit_Limit
+_Increase_Form.pdf   | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/Credit_Limit
+_Increase_Form.pdf   | ✗ | ⏱: 4.51s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/add-on.pdf  
+| ✓ | ⏱: 4.50s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/add-on.pdf  
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/add-on.pdf  
+| ✗ | ⏱: 4.54s 
+[FETCH]... ↓ https://tatacard.com/ DisputeRaise                                 
+| ✓ | ⏱: 13.05s 
+[SCRAPE].. ◆ https://tatacard.com/ DisputeRaise                                 
+| ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://tatacard.com/ DisputeRaise                                 
+| ✓ | ⏱: 13.29s 
+[FETCH]... ↓ 
+https://www.tatacard.com/sbi-card-en/assets/docs/pdf/forms-central/nach.pdf     
+| ✓ | ⏱: 14.56s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/sbi-card-en/assets/docs/pdf/forms-central/nach.pdf     
+| ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://www.tatacard.com/sbi-card-en/assets/docs/pdf/forms-central/nach.pdf     
+| ✓ | ⏱: 14.75s 
+[FETCH]... ↓ https://www.tatacard.com/tata-card-en/assets/doc...address-change 
+-declaration-form-tata-15-apr.pdf  | ✓ | ⏱: 5.76s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-card-en/assets/doc...address-change 
+-declaration-form-tata-15-apr.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● https://www.tatacard.com/tata-card-en/assets/doc...address-change 
+-declaration-form-tata-15-apr.pdf  | ✗ | ⏱: 5.78s 
+[FETCH]... ↓ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 14.70s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 14.87s 
+[FETCH]... ↓ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+18.56s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+0.10s 
+[COMPLETE] ● https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+18.73s 
+[FETCH]... ↓ 
+https://www.tatacard.com/sbi-card-en/assets/docs/pdf/personal/pay/payment-postin
+g.pdf                | ✓ | ⏱: 19.41s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/sbi-card-en/assets/docs/pdf/personal/pay/payment-postin
+g.pdf                | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://www.tatacard.com/sbi-card-en/assets/docs/pdf/personal/pay/payment-postin
+g.pdf                | ✓ | ⏱: 19.55s 
+[FETCH]... ↓ https://tatacard.com/                                              
+| ✓ | ⏱: 20.23s 
+[SCRAPE].. ◆ https://tatacard.com/                                              
+| ✓ | ⏱: 0.31s 
+[COMPLETE] ● https://tatacard.com/                                              
+| ✓ | ⏱: 20.58s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...forms-central/auto-debit-deac
+tivation-letter.pdf  | ✓ | ⏱: 8.99s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...forms-central/auto-debit-deac
+tivation-letter.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...forms-central/auto-debit-deac
+tivation-letter.pdf  | ✗ | ⏱: 9.02s 
+[FETCH]... ↓ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 20.10s 
+[SCRAPE].. ◆ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 0.11s 
+[COMPLETE] ● https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 20.30s 
+[FETCH]... ↓ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 20.27s 
+[SCRAPE].. ◆ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 0.12s 
+[COMPLETE] ● https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 20.45s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/auto-debit-u
+pdated.pdf           | ✓ | ⏱: 9.25s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/auto-debit-u
+pdated.pdf           | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/auto-debit-u
+pdated.pdf           | ✗ | ⏱: 9.27s 
+[FETCH]... ↓ 
+https://www.tatacard.com/creditcards/app/service/create-dispute-page            
+| ✓ | ⏱: 20.63s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/creditcards/app/service/create-dispute-page            
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/creditcards/app/service/create-dispute-page            
+| ✓ | ⏱: 20.72s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/bank-certifi
+cate.pdf             | ✓ | ⏱: 9.32s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/bank-certifi
+cate.pdf             | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/bank-certifi
+cate.pdf             | ✗ | ⏱: 9.34s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/book-my-show
+-kyc.pdf             | ✓ | ⏱: 8.26s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/book-my-show
+-kyc.pdf             | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/book-my-show
+-kyc.pdf             | ✗ | ⏱: 8.28s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/form-1disput
+e-form.pdf           | ✓ | ⏱: 6.35s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/form-1disput
+e-form.pdf           | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/form-1disput
+e-form.pdf           | ✗ | ⏱: 6.37s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/ecs-deactiva
+tion-letter.pdf      | ✓ | ⏱: 6.72s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/ecs-deactiva
+tion-letter.pdf      | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/ecs-deactiva
+tion-letter.pdf      | ✗ | ⏱: 6.73s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/fee-declarat
+ion-form.pdf         | ✓ | ⏱: 6.39s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/fee-declarat
+ion-form.pdf         | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/fee-declarat
+ion-form.pdf         | ✗ | ⏱: 6.40s 
+[FETCH]... ↓ https://www.tatacard.com/creditcards/app/myaccount/manage-pin-page 
+| ✓ | ⏱: 21.70s 
+[SCRAPE].. ◆ https://www.tatacard.com/creditcards/app/myaccount/manage-pin-page 
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● https://www.tatacard.com/creditcards/app/myaccount/manage-pin-page 
+| ✓ | ⏱: 21.77s 
+[FETCH]... ↓ https://www.tatacard.com/creditcards/app/user/redirectPage/encash  
+| ✓ | ⏱: 21.84s 
+[SCRAPE].. ◆ https://www.tatacard.com/creditcards/app/user/redirectPage/encash  
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● https://www.tatacard.com/creditcards/app/user/redirectPage/encash  
+| ✓ | ⏱: 21.90s 
+[FETCH]... ↓ 
+https://www.tatacard.com/creditcards/app/user/redirectPage/balanceTransferEMI   
+| ✓ | ⏱: 21.74s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/creditcards/app/user/redirectPage/balanceTransferEMI   
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/creditcards/app/user/redirectPage/balanceTransferEMI   
+| ✓ | ⏱: 21.81s 
+[FETCH]... ↓ https://www.tatacard.com/creditcards/app/billdesk/utility-billpay  
+| ✓ | ⏱: 21.76s 
+[SCRAPE].. ◆ https://www.tatacard.com/creditcards/app/billdesk/utility-billpay  
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● https://www.tatacard.com/creditcards/app/billdesk/utility-billpay  
+| ✓ | ⏱: 21.83s 
+[FETCH]... ↓ 
+https://www.tatacard.com/creditcards/app/user/redirectPage/cardStatement        
+| ✓ | ⏱: 21.91s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/creditcards/app/user/redirectPage/cardStatement        
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/creditcards/app/user/redirectPage/cardStatement        
+| ✓ | ⏱: 21.99s 
+[FETCH]... ↓ https://www.tatacard.com/creditcards/app/user/redirectPage/flexipay
+| ✓ | ⏱: 22.24s 
+[SCRAPE].. ◆ https://www.tatacard.com/creditcards/app/user/redirectPage/flexipay
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● https://www.tatacard.com/creditcards/app/user/redirectPage/flexipay
+| ✓ | ⏱: 22.32s 
+[FETCH]... ↓ 
+https://www.tatacard.com/creditcards/app/requests/retail-consent-page           
+| ✓ | ⏱: 22.41s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/creditcards/app/requests/retail-consent-page           
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/creditcards/app/requests/retail-consent-page           
+| ✓ | ⏱: 22.48s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/kyc-renewal-
+form-tata-15-apr.pdf | ✓ | ⏱: 3.70s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/kyc-renewal-
+form-tata-15-apr.pdf | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/kyc-renewal-
+form-tata-15-apr.pdf | ✗ | ⏱: 3.72s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/officially-v
+alid-document.pdf    | ✓ | ⏱: 3.68s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/officially-v
+alid-document.pdf    | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/officially-v
+alid-document.pdf    | ✗ | ⏱: 3.69s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/tata-card-ap
+plication-form.pdf   | ✓ | ⏱: 3.74s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/tata-card-ap
+plication-form.pdf   | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/forms-central/tata-card-ap
+plication-form.pdf   | ✗ | ⏱: 3.77s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...erms-and-conditions/MITC TATA
+Cards Gujarati.pdf  | ✓ | ⏱: 3.84s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...erms-and-conditions/MITC TATA
+Cards Gujarati.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...erms-and-conditions/MITC TATA
+Cards Gujarati.pdf  | ✗ | ⏱: 3.87s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...terms-and-conditions/MITC 
+TATA Cards Marathi.pdf  | ✓ | ⏱: 3.90s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...terms-and-conditions/MITC 
+TATA Cards Marathi.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...terms-and-conditions/MITC 
+TATA Cards Marathi.pdf  | ✗ | ⏱: 3.92s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...rms-and-conditions/MITC TATA 
+Cards Malayalam.pdf  | ✓ | ⏱: 3.94s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...rms-and-conditions/MITC TATA 
+Cards Malayalam.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...rms-and-conditions/MITC TATA 
+Cards Malayalam.pdf  | ✗ | ⏱: 3.97s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...terms-and-conditions/MITC 
+TATA Cards Bengali.pdf  | ✓ | ⏱: 4.12s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...terms-and-conditions/MITC 
+TATA Cards Bengali.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...terms-and-conditions/MITC 
+TATA Cards Bengali.pdf  | ✗ | ⏱: 4.16s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...t-terms-and-conditions/MITC 
+TATA Cards Hindi.pdf  | ✓ | ⏱: 4.16s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...t-terms-and-conditions/MITC 
+TATA Cards Hindi.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...t-terms-and-conditions/MITC 
+TATA Cards Hindi.pdf  | ✗ | ⏱: 4.18s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...rms-central/tata-star-cards-a
+pplication-form.pdf  | ✓ | ⏱: 4.66s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...rms-central/tata-star-cards-a
+pplication-form.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...rms-central/tata-star-cards-a
+pplication-form.pdf  | ✗ | ⏱: 4.68s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...t-terms-and-conditions/MITC 
+TATA Cards Tamil.pdf  | ✓ | ⏱: 4.75s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...t-terms-and-conditions/MITC 
+TATA Cards Tamil.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...t-terms-and-conditions/MITC 
+TATA Cards Tamil.pdf  | ✗ | ⏱: 4.77s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...rtant-terms-and-conditions/mi
+tc-tata-english.pdf  | ✓ | ⏱: 5.73s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...rtant-terms-and-conditions/mi
+tc-tata-english.pdf  | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...rtant-terms-and-conditions/mi
+tc-tata-english.pdf  | ✗ | ⏱: 5.76s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...-and-conditions/MITC 
+TATA_Kannada-15-07-2021.pdf  | ✓ | ⏱: 5.93s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...-and-conditions/MITC 
+TATA_Kannada-15-07-2021.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...-and-conditions/MITC 
+TATA_Kannada-15-07-2021.pdf  | ✗ | ⏱: 5.95s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...-terms-and-conditions/MITC 
+TATA Cards Telugu.pdf  | ✓ | ⏱: 5.98s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...-terms-and-conditions/MITC 
+TATA Cards Telugu.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...-terms-and-conditions/MITC 
+TATA Cards Telugu.pdf  | ✗ | ⏱: 6.00s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...y-bill-payments/tnc/utility-b
+ill-payment-tnc.pdf  | ✓ | ⏱: 5.89s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...y-bill-payments/tnc/utility-b
+ill-payment-tnc.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...y-bill-payments/tnc/utility-b
+ill-payment-tnc.pdf  | ✗ | ⏱: 5.92s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/Tata-Card-
+Booklet.pdf          | ✓ | ⏱: 5.65s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/Tata-Card-
+Booklet.pdf          | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/Tata-Card-
+Booklet.pdf          | ✗ | ⏱: 5.67s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...product-tnc-faq/Tata-Card-SEL
+ECT-tnc-Booklet.pdf  | ✓ | ⏱: 5.67s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...product-tnc-faq/Tata-Card-SEL
+ECT-tnc-Booklet.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...product-tnc-faq/Tata-Card-SEL
+ECT-tnc-Booklet.pdf  | ✗ | ⏱: 5.69s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/FAQ-for-Ta
+ta-Card-titanium.pdf | ✓ | ⏱: 6.59s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/FAQ-for-Ta
+ta-Card-titanium.pdf | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/FAQ-for-Ta
+ta-Card-titanium.pdf | ✗ | ⏱: 6.62s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...ct-tnc-faq/Tata-Star-Card-SEL
+ECT-tnc-Booklet.pdf  | ✓ | ⏱: 6.93s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...ct-tnc-faq/Tata-Star-Card-SEL
+ECT-tnc-Booklet.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...ct-tnc-faq/Tata-Star-Card-SEL
+ECT-tnc-Booklet.pdf  | ✗ | ⏱: 6.96s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/FAQ-for-Ta
+ta-Card-platinum.pdf | ✓ | ⏱: 7.14s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/FAQ-for-Ta
+ta-Card-platinum.pdf | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/FAQ-for-Ta
+ta-Card-platinum.pdf | ✗ | ⏱: 7.17s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/personal/pay/manual-drop-b
+ox-list.pdf          | ✓ | ⏱: 7.44s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/personal/pay/manual-drop-b
+ox-list.pdf          | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/personal/pay/manual-drop-b
+ox-list.pdf          | ✗ | ⏱: 7.46s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/Tata-Star-
+Card-tnc-Booklet.pdf | ✓ | ⏱: 7.15s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/Tata-Star-
+Card-tnc-Booklet.pdf | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/product-tnc-faq/Tata-Star-
+Card-tnc-Booklet.pdf | ✗ | ⏱: 7.18s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...dit-cards/terms-and-condition
+s-welcome-offer.pdf  | ✓ | ⏱: 7.70s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...dit-cards/terms-and-condition
+s-welcome-offer.pdf  | ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...dit-cards/terms-and-condition
+s-welcome-offer.pdf  | ✗ | ⏱: 7.76s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/scheme-details.pdf        
+| ✓ | ⏱: 6.63s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/scheme-details.pdf        
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/scheme-details.pdf        
+| ✗ | ⏱: 6.65s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/walkin-desk-address.pdf   
+| ✓ | ⏱: 6.13s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/walkin-desk-address.pdf   
+| ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/walkin-desk-address.pdf   
+| ✗ | ⏱: 6.15s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc.../who-we-are/notices/Off 
+Boarding Data Aug'19.pdf  | ✓ | ⏱: 6.03s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc.../who-we-are/notices/Off 
+Boarding Data Aug'19.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc.../who-we-are/notices/Off 
+Boarding Data Aug'19.pdf  | ✗ | ⏱: 6.06s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...a/letter-chedul-IV-code-of-co
+nduct-SBI-cards.pdf  | ✓ | ⏱: 6.79s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...a/letter-chedul-IV-code-of-co
+nduct-SBI-cards.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...a/letter-chedul-IV-code-of-co
+nduct-SBI-cards.pdf  | ✗ | ⏱: 6.82s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc.../who-we-are/media/new-collect
+ion-agency-list.pdf  | ✓ | ⏱: 6.89s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc.../who-we-are/media/new-collect
+ion-agency-list.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc.../who-we-are/media/new-collect
+ion-agency-list.pdf  | ✗ | ⏱: 6.92s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 8.06s
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.18s
+[COMPLETE] ● https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 8.35s
+[FETCH]... ↓ https://www.tatacard.com/tata-en/address-change-kyc.page           
+| ✓ | ⏱: 8.19s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/address-change-kyc.page           
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/address-change-kyc.page           
+| ✓ | ⏱: 8.54s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/blog/home.page                    
+| ✓ | ⏱: 7.69s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/blog/home.page                    
+| ✓ | ⏱: 0.18s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/blog/home.page                    
+| ✓ | ⏱: 7.98s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/order-of-payment-settlement.page  
+| ✓ | ⏱: 6.70s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/order-of-payment-settlement.page  
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/order-of-payment-settlement.page  
+| ✓ | ⏱: 6.94s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/eapply.page                       
+| ✓ | ⏱: 8.53s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/eapply.page                       
+| ✓ | ⏱: 0.29s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/eapply.page                       
+| ✓ | ⏱: 8.93s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/(https:/www.tatacard.com          
+| ✓ | ⏱: 12.54s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/(https:/www.tatacard.com          
+| ✓ | ⏱: 0.26s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/(https:/www.tatacard.com          
+| ✓ | ⏱: 12.90s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 10.84s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.09s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/faq.page                          
+| ✓ | ⏱: 11.06s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/faq.page                          
+| ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/faq.page                          
+| ✓ | ⏱: 11.36s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/website.
+page                 | ✓ | ⏱: 8.80s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/website.
+page                 | ✓ | ⏱: 0.20s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/website.
+page                 | ✓ | ⏱: 9.09s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/insurance/card-protection-pla
+n.page               | ✓ | ⏱: 9.18s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/insurance/card-protection-pla
+n.page               | ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/insurance/card-protection-pla
+n.page               | ✓ | ⏱: 9.49s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 15.12s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 15.31s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/money-simplified/easy-money.p
+age                  | ✓ | ⏱: 11.85s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/money-simplified/easy-money.p
+age                  | ✓ | ⏱: 0.23s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/money-simplified/easy-money.p
+age                  | ✓ | ⏱: 12.13s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/money-simplified/atm-cash.pag
+e                    | ✓ | ⏱: 13.16s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/money-simplified/atm-cash.pag
+e                    | ✓ | ⏱: 0.24s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/money-simplified/atm-cash.pag
+e                    | ✓ | ⏱: 13.44s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 16.05s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 16.39s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 16.51s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.17s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 16.76s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/benefits/add-on-card.page
+| ✓ | ⏱: 16.77s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/benefits/add-on-card.page
+| ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/benefits/add-on-card.page
+| ✓ | ⏱: 17.09s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/auto-bi
+ll-pay.page          | ✓ | ⏱: 12.65s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/auto-bi
+ll-pay.page          | ✓ | ⏱: 0.24s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/auto-bi
+ll-pay.page          | ✓ | ⏱: 12.94s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/mobile-a
+pp.page              | ✓ | ⏱: 18.04s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/mobile-a
+pp.page              | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/mobile-a
+pp.page              | ✓ | ⏱: 18.34s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 17.54s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.23s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 17.86s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/registe
+r-and-pay.page       | ✓ | ⏱: 12.87s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/registe
+r-and-pay.page       | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/registe
+r-and-pay.page       | ✓ | ⏱: 13.15s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/pay-fas
+t.page               | ✓ | ⏱: 14.36s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/pay-fas
+t.page               | ✓ | ⏱: 0.26s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/pay-fas
+t.page               | ✓ | ⏱: 14.67s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 16.14s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 16.42s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...nce-transfer-on-emi/balance-t
+ransfer-on-emi.page  | ✓ | ⏱: 19.16s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...nce-transfer-on-emi/balance-t
+ransfer-on-emi.page  | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...nce-transfer-on-emi/balance-t
+ransfer-on-emi.page  | ✓ | ⏱: 19.49s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...cards/classic-cards/tata-crom
+a-titanium-card.dcr  | ✓ | ⏱: 23.66s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...cards/classic-cards/tata-crom
+a-titanium-card.dcr  | ✓ | ⏱: 0.38s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...cards/classic-cards/tata-crom
+a-titanium-card.dcr  | ✓ | ⏱: 24.26s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 14.08s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 14.36s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit-cards/compare-cards.page       
+| ✓ | ⏱: 13.08s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit-cards/compare-cards.page       
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit-cards/compare-cards.page       
+| ✓ | ⏱: 13.27s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...cards/premium-cards/tata-crom
+a-platinum-card.dcr  | ✓ | ⏱: 25.15s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...cards/premium-cards/tata-crom
+a-platinum-card.dcr  | ✓ | ⏱: 0.21s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/eapply/eapplyfo...cards/premium-cards/tata-crom
+a-platinum-card.dcr  | ✓ | ⏱: 25.49s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 13.51s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 13.68s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit-cards/simplyfier.page          
+| ✓ | ⏱: 9.10s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit-cards/simplyfier.page          
+| ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit-cards/simplyfier.page          
+| ✓ | ⏱: 9.28s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-croma-
+titanium-card.page   | ✓ | ⏱: 15.45s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-croma-
+titanium-card.page   | ✓ | ⏱: 0.87s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-croma-
+titanium-card.page   | ✓ | ⏱: 16.36s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/digital-platform-updates.page         
+| ✓ | ⏱: 9.11s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/digital-platform-updates.page         
+| ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/digital-platform-updates.page         
+| ✓ | ⏱: 9.30s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/resolution-framework-2-0.page     
+| ✓ | ⏱: 8.97s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/resolution-framework-2-0.page     
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/resolution-framework-2-0.page     
+| ✓ | ⏱: 9.06s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/tnc.page                          
+| ✓ | ⏱: 8.69s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/tnc.page                          
+| ✓ | ⏱: 0.59s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/tnc.page                          
+| ✓ | ⏱: 9.31s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/templatedata/ge...card-en/https:/www.tatacard.c
+om/tata-en/tnc.page  | ✓ | ⏱: 9.72s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/templatedata/ge...card-en/https:/www.tatacard.c
+om/tata-en/tnc.page  | ✓ | ⏱: 0.05s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/templatedata/ge...card-en/https:/www.tatacard.c
+om/tata-en/tnc.page  | ✓ | ⏱: 9.80s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-croma-
+platinum-card.page   | ✓ | ⏱: 15.96s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-croma-
+platinum-card.page   | ✓ | ⏱: 0.15s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-croma-
+platinum-card.page   | ✓ | ⏱: 16.13s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/video/demovideo.page              
+| ✓ | ⏱: 9.32s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/video/demovideo.page              
+| ✓ | ⏱: 0.07s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/video/demovideo.page              
+| ✓ | ⏱: 9.43s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/video/web-onboarding.page         
+| ✓ | ⏱: 7.90s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/video/web-onboarding.page         
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/video/web-onboarding.page         
+| ✓ | ⏱: 7.99s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/video/product-videos.page         
+| ✓ | ⏱: 8.39s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/video/product-videos.page         
+| ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/video/product-videos.page         
+| ✓ | ⏱: 8.49s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.73s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.06s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.83s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...t-tnc-faq/Tata-Croma-Card-SEL
+ECT-tnc-Booklet.pdf  | ✓ | ⏱: 4.11s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...t-tnc-faq/Tata-Croma-Card-SEL
+ECT-tnc-Booklet.pdf  | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...t-tnc-faq/Tata-Croma-Card-SEL
+ECT-tnc-Booklet.pdf  | ✗ | ⏱: 4.14s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/resolution-framework-2-0-p
+olicy-final.pdf      | ✓ | ⏱: 4.36s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/resolution-framework-2-0-p
+olicy-final.pdf      | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/resolution-framework-2-0-p
+olicy-final.pdf      | ✗ | ⏱: 4.42s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...l/benefits/utility-bill-payme
+nts/Biller-list.pdf  | ✓ | ⏱: 4.43s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...l/benefits/utility-bill-payme
+nts/Biller-list.pdf  | ✓ | ⏱: 0.03s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...l/benefits/utility-bill-payme
+nts/Biller-list.pdf  | ✗ | ⏱: 4.48s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/terms-and-conditions-of-se
+ttlement.pdf         | ✓ | ⏱: 4.52s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/terms-and-conditions-of-se
+ttlement.pdf         | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/terms-and-conditions-of-se
+ttlement.pdf         | ✗ | ⏱: 4.56s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc.../product-tnc-faq/Tata-Croma-C
+ard-tnc-Booklet.pdf  | ✓ | ⏱: 4.62s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc.../product-tnc-faq/Tata-Croma-C
+ard-tnc-Booklet.pdf  | ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc.../product-tnc-faq/Tata-Croma-C
+ard-tnc-Booklet.pdf  | ✗ | ⏱: 4.66s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/rbi-restructure-tata-terms
+-and-conditions.pdf  | ✓ | ⏱: 4.69s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/rbi-restructure-tata-terms
+-and-conditions.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/docs/pdf/rbi-restructure-tata-terms
+-and-conditions.pdf  | ✗ | ⏱: 4.71s 
+[FETCH]... ↓ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 5.18s 
+[SCRAPE].. ◆ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 0.23s 
+[COMPLETE] ● https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 5.52s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...nt-terms-and-conditions/tata-
+pos-voucher-tnc.pdf  | ✓ | ⏱: 5.70s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...nt-terms-and-conditions/tata-
+pos-voucher-tnc.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...nt-terms-and-conditions/tata-
+pos-voucher-tnc.pdf  | ✗ | ⏱: 5.72s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...fits/insurance/card-protectio
+n-plan/cpp-tata.pdf  | ✓ | ⏱: 5.72s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...fits/insurance/card-protectio
+n-plan/cpp-tata.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...fits/insurance/card-protectio
+n-plan/cpp-tata.pdf  | ✗ | ⏱: 5.76s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-card-en/assets/doc...ce/card-protection-plan/produ
+ct-details-tata.pdf  | ✓ | ⏱: 5.78s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-card-en/assets/doc...ce/card-protection-plan/produ
+ct-details-tata.pdf  | ✓ | ⏱: 0.01s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-card-en/assets/doc...ce/card-protection-plan/produ
+ct-details-tata.pdf  | ✗ | ⏱: 5.80s 
+[FETCH]... ↓ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.52s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.80s 
+[FETCH]... ↓ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+8.19s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+0.17s 
+[COMPLETE] ● https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+8.43s 
+[FETCH]... ↓ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 9.05s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.12s 
+[COMPLETE] ● https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 9.47s 
+[FETCH]... ↓ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.51s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.68s 
+[FETCH]... ↓ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+10.64s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+0.10s 
+[COMPLETE] ● https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+10.81s 
+[FETCH]... ↓ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 10.81s 
+[SCRAPE].. ◆ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 0.09s 
+[COMPLETE] ● https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 10.94s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+10.99s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.07s
+[COMPLETE] ● https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+11.10s 
+[FETCH]... ↓ https://www.tatacard.com/ DisputeRaise                             
+| ✓ | ⏱: 11.07s 
+[SCRAPE].. ◆ https://www.tatacard.com/ DisputeRaise                             
+| ✓ | ⏱: 0.08s 
+[COMPLETE] ● https://www.tatacard.com/ DisputeRaise                             
+| ✓ | ⏱: 11.49s 
+[FETCH]... ↓ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.51s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.05s 
+[COMPLETE] ● https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.59s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+10.53s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.10s
+[COMPLETE] ● https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+10.70s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 10.47s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.23s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 10.78s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 10.76s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.15s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.02s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.04s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.36s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.90s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.21s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 12.24s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 12.12s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.14s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 12.35s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 12.17s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.14s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 12.39s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 13.03s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 13.30s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.80s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.16s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 12.04s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 12.99s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.17s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 13.24s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 13.20s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 13.47s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.02s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.27s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.39s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.17s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.67s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.79s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.17s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.05s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.70s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.17s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.95s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.32s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.50s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.52s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.70s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.71s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.88s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 7.10s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 7.29s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.08s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.13s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.27s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.18s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.33s 
+[FETCH]... ↓ 
+https://www.tatacard.com/creditcards/app/user/redirectPage/easyMoneyDraft       
+| ✓ | ⏱: 23.78s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/creditcards/app/user/redirectPage/easyMoneyDraft       
+| ✓ | ⏱: 0.02s 
+[COMPLETE] ● 
+https://www.tatacard.com/creditcards/app/user/redirectPage/easyMoneyDraft       
+| ✓ | ⏱: 23.84s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.35s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.52s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.53s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.70s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.74s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.92s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 6.50s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 6.68s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 6.31s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 6.47s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 5.88s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 6.05s 
+[FETCH]... ↓ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 5.17s 
+[SCRAPE].. ◆ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 0.18s 
+[COMPLETE] ● https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 5.45s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.12s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.43s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.79s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.20s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 8.10s 
+[FETCH]... ↓ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.06s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.27s 
+[COMPLETE] ● 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.44s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 9.44s
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.21s
+[COMPLETE] ● https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 9.75s
+[FETCH]... ↓ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.75s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.21s 
+[COMPLETE] ● 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.10s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+10.39s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.23s
+[COMPLETE] ● https://www.tatacard.com/tata-en/   
+https:/www.sb...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+10.71s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 10.78s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.19s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.07s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.37s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 11.62s 
+[FETCH]... ↓ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 12.01s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.14s 
+[COMPLETE] ● https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 12.23s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 12.59s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.16s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/personal/  
+http...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 12.85s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 12.87s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.17s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/contact-us/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 13.13s 
+[FETCH]... ↓ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+13.88s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+0.10s 
+[COMPLETE] ● https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+14.04s 
+[FETCH]... ↓ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 17.00s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.07s 
+[COMPLETE] ● 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 17.11s 
+[FETCH]... ↓ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+17.12s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+0.10s 
+[COMPLETE] ● https://www.tatacard.com/en/        
+https:/www.sbicard...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 
+17.26s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 17.25s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.09s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/blog/      
+https:/w...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 17.41s 
+[FETCH]... ↓ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 17.43s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.09s 
+[COMPLETE] ● 
+https://www.tatacard.com/sbi-card-en/assets/docs...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 17.59s 
+[FETCH]... ↓ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 17.93s 
+[SCRAPE].. ◆ https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.tatacard.com/en/contact-us/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 18.09s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 18.11s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/(https:/   
+https...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 18.29s 
+[FETCH]... ↓ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 18.32s 
+[SCRAPE].. ◆ https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 0.12s 
+[COMPLETE] ● https://www.tatacard.com/   
+https:/www.sbicard.co...ersonal/benefits/insurance-products-sbicard.page  | ✓ | 
+⏱: 18.50s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 13.42s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 13.60s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.60s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.77s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.60s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.77s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.44s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.71s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.54s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.81s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.54s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.82s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.42s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.24s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.76s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.78s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.12s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.59s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.21s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.91s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.92s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 11.21s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.55s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.22s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.89s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.51s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.18s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.79s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.65s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.19s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 10.92s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.57s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.16s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/benefi...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 6.86s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.19s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.37s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.80s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.13s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.99s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 7.87s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.06s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.20s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.12s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.38s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.80s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.98s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.45s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/templatedata/ge...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.62s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.64s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.80s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.83s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 8.00s 
+[FETCH]... ↓ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 8.99s 
+[SCRAPE].. ◆ 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 0.11s 
+[COMPLETE] ● 
+https://www.tatacard.com/tata-en/personal/credit...ersonal/benefits/insurance-pr
+oducts-sbicard.page  | ✓ | ⏱: 9.16s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 8.53s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/video/     
+https:/...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 8.71s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.14s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.10s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.32s 
+[FETCH]... ↓ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.69s 
+[SCRAPE].. ◆ https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 0.09s 
+[COMPLETE] ● https://www.tatacard.com/tata-en/who-we-are/        
+ht...ersonal/benefits/insurance-products-sbicard.page  | ✓ | ⏱: 7.82s 
+INFO Crawl stage complete in 189.52s
+INFO Audit(raw) stage complete in 1.45s (run_id=d2b1ec4ffcff484eaac70931b2959b5f new=171 updated=0 unchanged=0 deleted=0)
+INFO LLM input prepared: 66 page(s)
+INFO LLM output populated from sample: /app/enrich/ai_metadata.json
+INFO Applied LLM enrichment to 0 page(s)
+INFO Payload stage complete in 0.29s (446 records)
+INFO Loading records from /app/output_clean_1/langgraph_embedding_payloads.jsonl
+INFO Delta select complete in 0.17s (446 / 446 payload records)
+INFO Loading records from /app/output_clean_1/embedding_payloads_delta.jsonl
+INFO Use pytorch device_name: cpu
+INFO Load pretrained SentenceTransformer: /app/models/all-MiniLM-L6-v2
+Crawl complete. Visited results: 233
+Removed 1 duplicate URL row(s) after merge by normalized URL.
+Saved JSON pages: 171
+Failed pages: 105
+Max observed depth: 4
+Retry candidates: 0
+Retry attempted: 0
+Retry recovered: 0
+Retry failed: 0
+Warning: non-internal URLs found in results: https://www.tatacard.com, https://www.tatacard.com/, https://www.tatacard.com/tata-en/credit-bureau-faqs.page, https://www.tatacard.com/tata-en/disclaimer.page, https://www.tatacard.com/tata-en/contact-us/personal.page, https://www.tatacard.com/tata-en/do-not-disturb.page, https://www.tatacard.com/tata-en/forms-central.page, https://www.tatacard.com/tata-en/faqs.page, https://www.tatacard.com/tata-card-en/assets/docs/html/personal/tokenisation-faq/credit-card-tokenisation.html, https://www.tatacard.com/tata-en/help.page
+Output file: /app/output_clean_1/sbicard_crawl.json
+Skipped target breakdown (top 10): ext_pdf=51, asset_path=8, non_www_domain=2
+Failure reason breakdown: other=105
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  43%|████▎     | 44/103 [00:00<00:00, 431.68it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 714.37it/s]
+INFO Encoding 446 valid records
+INFO Encoding batch 1 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.66s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.66s/it]
+INFO Encoding batch 2 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:03<00:00,  3.19s/it]Batches: 100%|██████████| 1/1 [00:03<00:00,  3.19s/it]
+INFO Encoding batch 3 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.80s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.81s/it]
+INFO Encoding batch 4 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.68s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.68s/it]
+INFO Encoding batch 5 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.47s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.47s/it]
+INFO Encoding batch 6 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.43s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.43s/it]
+INFO Encoding batch 7 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.38s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.38s/it]
+INFO Encoding batch 8 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.37s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.37s/it]
+INFO Encoding batch 9 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+INFO Encoding batch 10 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.07s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.07s/it]
+INFO Encoding batch 11 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.30s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.30s/it]
+INFO Encoding batch 12 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.27s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.28s/it]
+INFO Encoding batch 13 with 32 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.29s/it]Batches: 100%|██████████| 1/1 [00:02<00:00,  2.29s/it]
+INFO Encoding batch 14 with 30 records
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.88s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.88s/it]
+INFO Embedding stage complete in 35.60s (446 records)
+INFO Offline bundle exported at /app/output_clean_1/offline_es_bundle
+INFO HEAD http://elasticsearch:9200/kb_documents [status:200 duration:0.008s]
+INFO DELETE http://elasticsearch:9200/kb_documents [status:200 duration:0.149s]
+INFO HEAD http://elasticsearch:9200/kb_documents [status:404 duration:0.002s]
+INFO PUT http://elasticsearch:9200/kb_documents [status:200 duration:0.459s]
+INFO Reading /app/output_clean_1/langgraph_embedding_vectors.jsonl
+INFO PUT http://elasticsearch:9200/_bulk?refresh=false [status:200 duration:1.190s]
+INFO PUT http://elasticsearch:9200/_bulk?refresh=false [status:200 duration:0.601s]
+INFO PUT http://elasticsearch:9200/_bulk?refresh=false [status:200 duration:0.139s]
+INFO Marked 446 URL(s) as INDEXED in SQLite for run_id=d2b1ec4ffcff484eaac70931b2959b5f
+INFO ES sync stage complete in 4.46s (indexed=446 deleted=0 errors=0)
+INFO Wrote flow state to /app/output_clean_1/langgraph_ingestion_state.json
+{
+  "crawl_output_dir": "/app/output_clean_1",
+  "crawl_output_path": "/app/output_clean_1/sbicard_crawl.json",
+  "payload_output_path": "/app/output_clean_1/langgraph_embedding_payloads.jsonl",
+  "embeddings_output_path": "/app/output_clean_1/langgraph_embedding_vectors.jsonl",
+  "config_path": "/app/es_search_config.json",
+  "model_name": "all-MiniLM-L6-v2",
+  "batch_size": 32,
+  "max_depth": 4,
+  "max_pages": 800,
+  "retry_failed_pages": true,
+  "max_retry_rounds": 2,
+  "max_retry_pages": 40,
+  "run_crawl": true,
+  "recreate_index": true,
+  "payload_delta_output_path": "/app/output_clean_1/embedding_payloads_delta.jsonl",
+  "run_started_epoch_ms": 1780905064521,
+  "run_id": "d2b1ec4ffcff484eaac70931b2959b5f",
+  "deleted_doc_ids": [],
+  "payload_count": 446,
+  "payload_delta_count": 446,
+  "embeddings_count": 446,
+  "indexed_count": 446,
+  "deleted_count": 0,
+  "indexing_errors": 0,
+  "total_urls": 171,
+  "success_urls": 66,
+  "failed_urls": 105,
+  "new_urls": 171,
+  "updated_urls": 0,
+  "unchanged_urls": 0,
+  "deleted_urls": 0,
+  "total_bytes": 449714,
+  "timings": {
+    "crawl_seconds": 189.519,
+    "audit_seconds": 1.455,
+    "payload_seconds": 0.289,
+    "delta_select_seconds": 0.168,
+    "embedding_seconds": 35.598,
+    "index_seconds": 4.463
+  },
+  "error": null,
+  "stage": "finalize_run",
+  "strict_partial_crawl": false,
+  "settings_overrides": {
+    "elasticsearch_url": "http://elasticsearch:9200",
+    "elasticsearch_username": null,
+    "elasticsearch_password": null,
+    "db_url": "sqlite:////app/output_clean_1/genie.db"
+  },
+  "generate_offline_bundle": true,
+  "offline_bundle_dir": "/app/output_clean_1/offline_es_bundle",
+  "offline_bundle_manifest_path": "/app/output_clean_1/offline_es_bundle/bundle_manifest.json",
+  "scrape_offers": false,
+  "offer_output_path": "/app/offer/offers_json/sbi_offers_all.json",
+  "offer_merge_count": 0,
+  "scrape_rewards": false,
+  "reward_output_path": "/app/reward/rewards_json/sbi_rewards_all.json",
+  "reward_merge_count": 0,
+  "scrape_about_us": false,
+  "about_us_output_path": "/app/about_us/sbi_about_us.json",
+  "about_us_merge_count": 0,
+  "max_offers": null,
+  "max_rewards": null,
+  "max_llm_pages": null,
+  "chunk_size": 1200,
+  "chunk_overlap": 200,
+  "changed_normalized_urls": [
+    "http://www.tatacard.com/",
+    "https://www.tatacard.com/",
+    "https://www.tatacard.com/creditcards/app/billdesk/utility-billpay",
+    "https://www.tatacard.com/creditcards/app/myaccount/manage-pin-page",
+    "https://www.tatacard.com/creditcards/app/requests/retail-consent-page",
+    "https://www.tatacard.com/creditcards/app/service/create-dispute-page",
+    "https://www.tatacard.com/creditcards/app/user/login",
+    "https://www.tatacard.com/creditcards/app/user/paynet",
+    "https://www.tatacard.com/creditcards/app/user/redirectPage/balanceTransferEMI",
+    "https://www.tatacard.com/creditcards/app/user/redirectPage/cardStatement",
+    "https://www.tatacard.com/creditcards/app/user/redirectPage/easyMoneyDraft",
+    "https://www.tatacard.com/creditcards/app/user/redirectPage/encash",
+    "https://www.tatacard.com/creditcards/app/user/redirectPage/flexipay",
+    "https://www.tatacard.com/creditcards/app/user/register-page",
+    "https://www.tatacard.com/tata-card-en/assets/docs/html/personal/tokenisation-faq/credit-card-tokenisation.html",
+    "https://www.tatacard.com/tata-en/address-change-kyc.page",
+    "https://www.tatacard.com/tata-en/contact-us/personal.page",
+    "https://www.tatacard.com/tata-en/credit-bureau-faqs.page",
+    "https://www.tatacard.com/tata-en/disclaimer.page",
+    "https://www.tatacard.com/tata-en/do-not-disturb.page",
+    "https://www.tatacard.com/tata-en/eapply.page",
+    "https://www.tatacard.com/tata-en/eapply/eapplyform.page?path=personal%2Fcredit-cards%2Fclassic-cards%2Ftata-croma-titanium-card.dcr",
+    "https://www.tatacard.com/tata-en/eapply/eapplyform.page?path=personal%2Fcredit-cards%2Fclassic-cards%2Ftata-star-titanium-card.dcr",
+    "https://www.tatacard.com/tata-en/eapply/eapplyform.page?path=personal%2Fcredit-cards%2Fclassic-cards%2Ftata-titanium-card.dcr",
+    "https://www.tatacard.com/tata-en/eapply/eapplyform.page?path=personal%2Fcredit-cards%2Fpremium-cards%2Ftata-croma-platinum-card.dcr",
+    "https://www.tatacard.com/tata-en/eapply/eapplyform.page?path=personal%2Fcredit-cards%2Fpremium-cards%2Ftata-platinum-card.dcr",
+    "https://www.tatacard.com/tata-en/eapply/eapplyform.page?path=personal%2Fcredit-cards%2Fpremium-cards%2Ftata-star-platinum-card.dcr",
+    "https://www.tatacard.com/tata-en/faqs.page",
+    "https://www.tatacard.com/tata-en/forms-central.page",
+    "https://www.tatacard.com/tata-en/help.page",
+    "https://www.tatacard.com/tata-en/home.page",
+    "https://www.tatacard.com/tata-en/most-important-terms-and-conditions.page",
+    "https://www.tatacard.com/tata-en/order-of-payment-settlement.page",
+    "https://www.tatacard.com/tata-en/personal/benefits.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/simply-sms.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/easy-access-channels/website.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/encash.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/insurance/card-protection-plan.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/balance-transfer-on-emi.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/balance-transfer.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/lower-interest-option/flexi-pay.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/money-simplified/atm-cash.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/money-simplified/easy-money.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/auto-bill-pay.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/pay-fast.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/register-and-pay.page",
+    "https://www.tatacard.com/tata-en/personal/benefits/utility-bill-payments/top-up-and-recharge.page",
+    "https://www.tatacard.com/tata-en/personal/credit-cards.page",
+    "https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-croma-titanium-card.page",
+    "https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-star-titanium-card.page",
+    "https://www.tatacard.com/tata-en/personal/credit-cards/classic-cards/tata-titanium-card.page",
+    "https://www.tatacard.com/tata-en/personal/credit-cards/compare-cards.page",
+    "https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-croma-platinum-card.page",
+    "https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-platinum-card.page",
+    "https://www.tatacard.com/tata-en/personal/credit-cards/premium-cards/tata-star-platinum-card.page",
+    "https://www.tatacard.com/tata-en/personal/digital-platform-updates.page",
+    "https://www.tatacard.com/tata-en/personal/offers.page",
+    "https://www.tatacard.com/tata-en/personal/pay.page",
+    "https://www.tatacard.com/tata-en/personal/rewards.page",
+    "https://www.tatacard.com/tata-en/personal/rewards_new.page",
+    "https://www.tatacard.com/tata-en/resolution-framework-2-0.page",
+    "https://www.tatacard.com/tata-en/security.page",
+    "https://www.tatacard.com/tata-en/sitemap.page",
+    "https://www.tatacard.com/tata-en/tnc.page",
+    "https://www.tatacard.com/tata-en/who-we-are.page",
+    "https://www.tatacard.com/tata-en/who-we-are/about-us.page"
+  ],
+  "enable_llm_enrichment": true,
+  "llm_change_input_path": "/app/output_clean_1/llm_change_input_crawl.json",
+  "llm_output_path": "/app/output_clean_1/llm_enrich.json"
+}

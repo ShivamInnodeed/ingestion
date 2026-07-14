@@ -1,0 +1,8 @@
+[env]
+# Single environment name used inside the container.
+current = "container"
+
+[paths]
+# Models are stored inside the image at build time.
+container = "/app/models"
+
