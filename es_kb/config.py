@@ -120,6 +120,24 @@ def load_settings(
         if os.environ.get(env_key):
             merged[target_key] = os.environ[env_key]
 
+    # Prefer discrete ORACLE_* env vars over ES_DB_URL / JSON db_url when all are set.
+    oracle_host = os.environ.get("ORACLE_HOST")
+    oracle_port = os.environ.get("ORACLE_PORT")
+    oracle_service = os.environ.get("ORACLE_SERVICE_NAME")
+    oracle_user = os.environ.get("ORACLE_USER")
+    oracle_password = os.environ.get("ORACLE_PASSWORD")
+    if all([oracle_host, oracle_port, oracle_service, oracle_user, oracle_password]):
+        # Deferred import avoids circular import with es_kb.db -> AppSettings.
+        from .db import build_oracle_db_url
+
+        merged["db_url"] = build_oracle_db_url(
+            user=oracle_user,
+            password=oracle_password,
+            host=oracle_host,
+            port=oracle_port,
+            service_name=oracle_service,
+        )
+
     # CLI/runtime overrides take highest precedence.
     if overrides:
         for key, value in overrides.items():

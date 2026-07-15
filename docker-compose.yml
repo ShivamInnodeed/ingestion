@@ -43,6 +43,11 @@ services:
       LLM_BEARER_TOKEN: ${LLM_BEARER_TOKEN:-}
       LLM_AUTH_HEADER: ${LLM_AUTH_HEADER:-}
       LLM_AUTH_VALUE: ${LLM_AUTH_VALUE:-}
+      ORACLE_HOST: ${ORACLE_HOST:-}
+      ORACLE_PORT: ${ORACLE_PORT:-}
+      ORACLE_SERVICE_NAME: ${ORACLE_SERVICE_NAME:-}
+      ORACLE_USER: ${ORACLE_USER:-}
+      ORACLE_PASSWORD: ${ORACLE_PASSWORD:-}
     volumes:
       - ./output_clean_1:/app/output_clean_1
       - ./es_search_config.json:/app/es_search_config.json:ro
