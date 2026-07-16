@@ -11,8 +11,10 @@ Tables:
 from datetime import datetime, timezone
 from typing import Any
 
-from sqlalchemy import JSON, Boolean, DateTime, ForeignKey, Index, Integer, String, Text, UniqueConstraint
+from sqlalchemy import JSON, Boolean, ForeignKey, Index, Integer, String, Text, UniqueConstraint
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
+
+from .oracle_types import TzDateTime
 
 
 class Base(DeclarativeBase):
@@ -25,9 +27,9 @@ class CrawlRun(Base):
     run_id: Mapped[str] = mapped_column(String(64), primary_key=True)
     crawl_source_name: Mapped[str] = mapped_column(String(128), default="sbicard")
     root_url: Mapped[str] = mapped_column(String(2048), default="")
-    scheduled_for: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
-    started_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
-    finished_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    scheduled_for: Mapped[datetime | None] = mapped_column(TzDateTime(), nullable=True)
+    started_at: Mapped[datetime] = mapped_column(TzDateTime(), nullable=False)
+    finished_at: Mapped[datetime | None] = mapped_column(TzDateTime(), nullable=True)
     run_status: Mapped[str] = mapped_column(String(32), default="RUNNING")
 
     total_urls: Mapped[int] = mapped_column(Integer, default=0)
@@ -42,9 +44,9 @@ class CrawlRun(Base):
     total_bytes: Mapped[int | None] = mapped_column(Integer, nullable=True)
     duration_ms: Mapped[int | None] = mapped_column(Integer, nullable=True)
     failed_reason: Mapped[str | None] = mapped_column(Text, nullable=True)
-    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    created_at: Mapped[datetime] = mapped_column(TzDateTime(), default=lambda: datetime.now(timezone.utc))
     updated_at: Mapped[datetime] = mapped_column(
-        DateTime(timezone=True),
+        TzDateTime(),
         default=lambda: datetime.now(timezone.utc),
         onupdate=lambda: datetime.now(timezone.utc),
     )
@@ -64,16 +66,16 @@ class UrlMaster(Base):
     canonical_url: Mapped[str | None] = mapped_column(String(4000), nullable=True)
     url_hash: Mapped[str] = mapped_column(String(64), nullable=False)
     domain_name: Mapped[str] = mapped_column(String(255), default="")
-    first_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
-    last_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+    first_seen_at: Mapped[datetime] = mapped_column(TzDateTime(), nullable=False)
+    last_seen_at: Mapped[datetime] = mapped_column(TzDateTime(), nullable=False)
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
-    deleted_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    deleted_at: Mapped[datetime | None] = mapped_column(TzDateTime(), nullable=True)
     last_content_hash: Mapped[str | None] = mapped_column(String(64), nullable=True)
     last_change_status: Mapped[str | None] = mapped_column(String(32), nullable=True)
     index_status: Mapped[str] = mapped_column(String(32), default="PENDING")
-    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    created_at: Mapped[datetime] = mapped_column(TzDateTime(), default=lambda: datetime.now(timezone.utc))
     updated_at: Mapped[datetime] = mapped_column(
-        DateTime(timezone=True),
+        TzDateTime(),
         default=lambda: datetime.now(timezone.utc),
         onupdate=lambda: datetime.now(timezone.utc),
     )
@@ -108,7 +110,7 @@ class UrlSnapshot(Base):
     changed_fields_json: Mapped[dict[str, Any] | None] = mapped_column(JSON, nullable=True)
     http_status_code: Mapped[int | None] = mapped_column(Integer, nullable=True)
     fetch_status: Mapped[str] = mapped_column(String(32), nullable=False)
-    fetched_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    fetched_at: Mapped[datetime] = mapped_column(TzDateTime(), default=lambda: datetime.now(timezone.utc))
     response_time_ms: Mapped[int | None] = mapped_column(Integer, nullable=True)
     request_method: Mapped[str | None] = mapped_column(String(32), nullable=True)
     request_headers_json: Mapped[dict[str, Any] | None] = mapped_column(JSON, nullable=True)
@@ -118,10 +120,10 @@ class UrlSnapshot(Base):
     error_message: Mapped[str | None] = mapped_column(Text, nullable=True)
     index_status: Mapped[str] = mapped_column(String(32), default="PENDING")
     is_active: Mapped[bool] = mapped_column(Boolean, default=True)
-    deleted_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
-    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+    deleted_at: Mapped[datetime | None] = mapped_column(TzDateTime(), nullable=True)
+    created_at: Mapped[datetime] = mapped_column(TzDateTime(), default=lambda: datetime.now(timezone.utc))
     updated_at: Mapped[datetime] = mapped_column(
-        DateTime(timezone=True),
+        TzDateTime(),
         default=lambda: datetime.now(timezone.utc),
         onupdate=lambda: datetime.now(timezone.utc),
     )

@@ -1,11 +1,12 @@
 from __future__ import annotations
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, event
 from sqlalchemy.engine import Engine, URL
 from sqlalchemy.orm import Session, sessionmaker
 
 from .config import AppSettings
 from .db_models import Base
+from .oracle_types import ORACLE_TS_TZ_FORMAT
 
 _MISSING_DB_URL_MSG = (
     "No database URL configured. Set ORACLE_HOST, ORACLE_PORT, ORACLE_SERVICE_NAME, "
@@ -31,6 +32,24 @@ def build_oracle_db_url(
         query={"service_name": service_name},
     )
     return url.render_as_string(hide_password=False)
+
+
+def _configure_oracle_session(dbapi_connection) -> None:
+    cursor = dbapi_connection.cursor()
+    try:
+        cursor.execute(
+            "ALTER SESSION SET NLS_TIMESTAMP_TZ_FORMAT = :fmt",
+            {"fmt": ORACLE_TS_TZ_FORMAT},
+        )
+    finally:
+        cursor.close()
+
+
+@event.listens_for(Engine, "connect")
+def _on_engine_connect(dbapi_connection, connection_record) -> None:
+    if connection_record.dialect.name != "oracle":
+        return
+    _configure_oracle_session(dbapi_connection)
 
 
 def create_engine_from_settings(settings: AppSettings) -> Engine:
