@@ -16,6 +16,23 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 from .oracle_types import TzDateTime
 
+import json 
+from sqlalchemy.types import TypeDecorator, CLOB
+
+
+class JSONType(TypeDecorator):
+    impl = CLOB
+    cache_ok = True
+ 
+    def process_bind_param(self, value, dialect):
+        if value is None:
+            return None
+        return json.dumps(value)
+ 
+    def process_result_value(self, value, dialect):
+        if value is None:
+            return None
+        return json.loads(value)
 
 class Base(DeclarativeBase):
     pass
@@ -40,7 +57,7 @@ class CrawlRun(Base):
     unchanged_urls: Mapped[int] = mapped_column(Integer, default=0)
     deleted_urls: Mapped[int] = mapped_column(Integer, default=0)
 
-    run_metadata_json: Mapped[dict[str, Any] | None] = mapped_column(JSON, nullable=True)
+    run_metadata_json: Mapped[dict[str, Any] | None] = mapped_column(     JSONType(),     nullable=True)
     total_bytes: Mapped[int | None] = mapped_column(Integer, nullable=True)
     duration_ms: Mapped[int | None] = mapped_column(Integer, nullable=True)
     failed_reason: Mapped[str | None] = mapped_column(Text, nullable=True)
@@ -101,21 +118,21 @@ class UrlSnapshot(Base):
     meta_description: Mapped[str | None] = mapped_column(Text, nullable=True)
     canonical_url: Mapped[str | None] = mapped_column(String(4000), nullable=True)
     raw_content: Mapped[str | None] = mapped_column(Text, nullable=True)
-    json_content: Mapped[dict[str, Any] | None] = mapped_column(JSON, nullable=True)
+    json_content: Mapped[dict[str, Any] | None] = mapped_column(     JSONType(),     nullable=True)
     content_hash: Mapped[str] = mapped_column(String(64), nullable=False)
     previous_content_hash: Mapped[str | None] = mapped_column(String(64), nullable=True)
     source_hash: Mapped[str | None] = mapped_column(String(64), nullable=True)
     version_no: Mapped[int] = mapped_column(Integer, nullable=False)
     change_status: Mapped[str] = mapped_column(String(32), nullable=False)
-    changed_fields_json: Mapped[dict[str, Any] | None] = mapped_column(JSON, nullable=True)
+    changed_fields_json: Mapped[dict[str, Any] | None] = mapped_column(     JSONType(),     nullable=True)
     http_status_code: Mapped[int | None] = mapped_column(Integer, nullable=True)
     fetch_status: Mapped[str] = mapped_column(String(32), nullable=False)
     fetched_at: Mapped[datetime] = mapped_column(TzDateTime(), default=lambda: datetime.now(timezone.utc))
     response_time_ms: Mapped[int | None] = mapped_column(Integer, nullable=True)
     request_method: Mapped[str | None] = mapped_column(String(32), nullable=True)
-    request_headers_json: Mapped[dict[str, Any] | None] = mapped_column(JSON, nullable=True)
-    response_headers_json: Mapped[dict[str, Any] | None] = mapped_column(JSON, nullable=True)
-    cookies_json: Mapped[dict[str, Any] | None] = mapped_column(JSON, nullable=True)
+    request_headers_json: Mapped[dict[str, Any] | None] = mapped_column(     JSONType(),     nullable=True)
+    response_headers_json: Mapped[dict[str, Any] | None] = mapped_column(     JSONType(),     nullable=True)
+    cookies_json: Mapped[dict[str, Any] | None] = mapped_column(     JSONType(),     nullable=True)
     user_agent: Mapped[str | None] = mapped_column(String(1024), nullable=True)
     error_message: Mapped[str | None] = mapped_column(Text, nullable=True)
     index_status: Mapped[str] = mapped_column(String(32), default="PENDING")
@@ -134,3 +151,4 @@ class UrlSnapshot(Base):
         Index("ix_snapshot_url_id_fetched_at", "url_id", "fetched_at"),
         Index("ix_snapshot_status_run_id", "change_status", "run_id"),
     )
+ 
