@@ -1,0 +1,85 @@
+# ============================================================================
+# Base Image for Genie Data-Ingestion Applications (card / offer / web)
+# ============================================================================
+FROM python:3.11-slim-bookworm
+
+LABEL description="Genie Data-Ingestion Base Image"
+
+# ---------------------------------------------------------------------------
+# Environment
+# ---------------------------------------------------------------------------
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+# ---------------------------------------------------------------------------
+# Install OS Packages (with apt netwo  rk hardening)
+# ---------------------------------------------------------------------------
+RUN set -eux; \
+    printf 'Acquire::ForceIPv4 "true";\nAcquire::Retries "10";\nAcquire::http::Timeout "30";\nAcquire::https::Timeout "30";\n' > /etc/apt/apt.conf.d/80-network-tweaks; \
+    if [ -f /etc/apt/sources.list.d/debian.sources ]; then \
+      sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources; \
+      sed -i 's|http://security.debian.org|https://security.debian.org|g' /etc/apt/sources.list.d/debian.sources; \
+    fi; \
+    if [ -f /etc/apt/sources.list ]; then \
+      sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list; \
+      sed -i 's|http://security.debian.org|https://security.debian.org|g' /etc/apt/sources.list; \
+    fi; \
+    apt-get update \
+    && apt-get install -y --no-install-recommends \
+        build-essential \
+        curl \
+        jq \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# ---------------------------------------------------------------------------
+# Upgrade pip & Install Shared Python Runtime Dependencies
+# ---------------------------------------------------------------------------
+RUN python -m pip install --upgrade --no-cache-dir \
+        pip \
+        setuptools \
+        wheel \
+    && pip install --no-cache-dir --default-timeout=1200 --retries 20 \
+        "pydantic>=2.6" \
+        "pydantic-settings>=2.2" \
+        "requests>=2.31" \
+        "lxml>=5.2" \
+        "beautifulsoup4>=4.12" \
+        crawl4ai \
+        "sentence-transformers>=2.6" \
+        langgraph \
+        "elasticsearch>=9.2,<10" \
+        "SQLAlchemy>=2.0" \
+        "oracledb>=2.0" \
+        "fastapi>=0.111" \
+        "uvicorn[standard]>=0.30" \
+        "APScheduler>=3.10" \
+    && python -m playwright install --with-deps chromium
+
+# ---------------------------------------------------------------------------
+# Working Directory
+# ---------------------------------------------------------------------------
+WORKDIR /app
+
+# ---------------------------------------------------------------------------
+# Local wheels (e.g. embedding_service) — baked into base for all consumers
+# ---------------------------------------------------------------------------
+COPY wheels/ /tmp/wheels/
+RUN set -e; \
+    if [ -d /tmp/wheels ] && [ "$(ls -A /tmp/wheels 2>/dev/null | wc -l)" -gt 0 ]; then \
+      if ls /tmp/wheels/*.whl >/dev/null 2>&1; then pip install --no-cache-dir /tmp/wheels/*.whl; fi; \
+      if ls /tmp/wheels/*.zip >/dev/null 2>&1; then pip install --no-cache-dir /tmp/wheels/*.zip; fi; \
+    fi; \
+    rm -rf /tmp/wheels
+
+# ---------------------------------------------------------------------------
+# Pre-download embedding model (avoids HuggingFace access at runtime)
+# ---------------------------------------------------------------------------
+RUN python -c "from sentence_transformers import SentenceTransformer; m=SentenceTransformer('all-MiniLM-L6-v2'); m.save('/app/models/all-MiniLM-L6-v2')"
+
+# ---------------------------------------------------------------------------
+# Default Port
+# ---------------------------------------------------------------------------
+EXPOSE 8000
