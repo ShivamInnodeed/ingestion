@@ -1,0 +1,20 @@
+flowchart TB
+  MAIN[crawl_sbicard_markdown.py<br/>BFS deep crawl Crawl4AI]
+  OFF{scrape_offers?}
+  REW{scrape_rewards?}
+  AB{scrape_about_us?}
+  OS[offer/sbi_offer_scraper.py<br/>Playwright 400+ pages]
+  RS[reward/sbi_reward_scraper.py]
+  AS[about_us scraper]
+  MERGE[Merge into sbicard_crawl.json]
+
+  MAIN --> OFF
+  OFF -->|yes| OS
+  OFF -->|no| REW
+  OS --> REW
+  REW -->|yes| RS
+  REW -->|no| AB
+  RS --> AB
+  AB -->|yes| AS
+  AB -->|no| MERGE
+  AS --> MERGE

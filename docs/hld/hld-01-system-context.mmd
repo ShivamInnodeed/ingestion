@@ -1,0 +1,34 @@
+flowchart TB
+  subgraph Triggers
+    OP[Support Engineer<br/>POST /run-now]
+    CRON[APScheduler<br/>cron / interval]
+  end
+
+  subgraph Container["Podman: scheduler-api-seed-8004 :8005"]
+    API[FastAPI<br/>api/scheduler_service.py]
+    FLOW[Subprocess<br/>langgraph_ingestion_flow.py]
+    API -->|spawns + logs| FLOW
+  end
+
+  subgraph External
+    WEB[Website Crawl<br/>sbicard.com / tatacard.com<br/>Crawl4AI + Playwright]
+    LLM[Optional LLM API<br/>enrichment]
+    ES[(Elasticsearch<br/>kb_documents)]
+    DB[(Audit DB<br/>SQLite or Oracle)]
+  end
+
+  subgraph HostVolumes["Host mounts"]
+    OUT[output_clean_1<br/>logs, JSON, embeddings]
+    TMP[tmp TMPDIR<br/>Playwright scratch]
+    CFG[es_search_config.json]
+  end
+
+  OP --> API
+  CRON --> API
+  FLOW --> WEB
+  FLOW --> LLM
+  FLOW --> ES
+  FLOW --> DB
+  FLOW --> OUT
+  FLOW --> TMP
+  API --> CFG

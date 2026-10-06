@@ -1,0 +1,22 @@
+sequenceDiagram
+  participant Ops as Support Engineer
+  participant API as scheduler-api :8005
+  participant Proc as langgraph_ingestion_flow.py
+  participant Log as langgraph_run_UUID.log
+  participant ES as Elasticsearch
+  participant DB as Audit DB
+
+  Ops->>API: POST /run-now + x-api-key
+  API->>API: Reject if runs.running=true
+  API->>Proc: Popen subprocess
+  API->>Log: stdout/stderr redirected
+  API-->>Ops: run_id, pid, log_path
+
+  loop Pipeline stages
+    Proc->>Proc: crawl → audit → LLM → payloads → embed → ES
+    Proc->>DB: audit writes
+    Proc->>ES: bulk index/delete
+  end
+
+  Proc-->>API: exit code
+  API->>API: clear active_run, set last_run

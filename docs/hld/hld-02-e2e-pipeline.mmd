@@ -1,0 +1,11 @@
+flowchart LR
+  START([START]) --> C[1 crawl]
+  C --> A[2 audit_raw]
+  A --> L[3 llm_enrich]
+  L --> M[4 apply_llm]
+  M --> P[5 build_payloads]
+  P --> D[6 delta_select]
+  D --> E[7 build_embeddings]
+  E --> I[8 sync_elasticsearch]
+  I --> F[9 finalize_run]
+  F --> END([END])
